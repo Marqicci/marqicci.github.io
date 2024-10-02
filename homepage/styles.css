@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+  background-color: black;
+  color: white;
+  font-family: Monospace;
+  margin: 0; /* Remove default margin */
+}
+
+nav {
+  background-color: black;
+  border-bottom: 3px solid white;
+}
+
+.thea {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  margin-top: 30px;
+}
+
+.text1 {
+  max-width: 60%;
+  margin: 0 auto; /* Center the text horizontally */
+  padding: 20px; /* Increase padding for better spacing */
+  border: 3px solid white;
+  font-size: 18px; /* Adjust font size for readability */
+  background-color: black;
+  color: white;
+  font-family: Monospace;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Monospace;
+  margin-top: 30px;
+}
+
+ul.nav {
+
+    padding-left:390px;
+    padding-top: 20px;
+    text-align: center;
+    background-color:white;
+
+  }
+
+  ul.nav > li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+  }
+  ul.nav > li > a {
+    color: black;
+    text-decoration: none;
+    font-family: Monospace;
+    background-image: linear-gradient(black,black);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .4s;
+  }
+  ul.nav > .bar:hover > a {
+    background-size: 100% 100%;
+    color:white;
+  }
+  ul:hover {
+    height: 105px;
+    transition: all 2s ease;
+    }
+.line{
+  border-top: 3px solid black;
+}
+
+.teabag{
+  width:100px;
+}
+h1{
+  text-align:center;
+  color:white;
+  font-family:Monospace;
+  margin-top:30px;
+}
+iframe{
+  margin-left:350px;
+  padding-top:50px;
+}
+.text2{
+  margin-left:100px;
+  margin-right:100px;
+  padding:auto;
+  border: 3px solid white;
+  font-size:33px;
+  background-color:white;
+  color:black;
+  font-family:Monospace;
+  text-align:center;
+}
+
+
