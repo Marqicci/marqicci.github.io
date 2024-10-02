@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  background-color: black;
+  color: white;
+  font-family: Monospace;
+  margin: 0; /* Remove default margin */
+}
+
+nav {
+  background-color: white; /* White navigation bar */
+  border-bottom: 3px solid black;
+}
+
+.thea {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  margin-top: 30px;
+}
+
+/* Navigation */
+ul.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+}
+
+ul.navbar-nav > li {
+  list-style: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+ul.navbar-nav > li > a {
+  color: black; /* Black text on white background */
+  text-decoration: none;
+  font-family: Monospace;
+  padding: 10px;
+  transition: background-color .4s, color .4s;
+}
+
+ul.navbar-nav > li:hover > a {
+  background-color: black; /* Change background to black on hover */
+  color: white; /* Change text color to white on hover */
+}
+
+.line {
+  border-top: 3px solid black;
+}
+
+.teabag {
+  width: 100px;
+}
+
+/* About Page Text */
+.text2 {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 3px solid white;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  font-family: Monospace;
+  text-align: center;
+}
+
+/* Button Styles */
+.btn-dark {
+  background-color: black;
+  color: white;
+  font-family: Monospace;
+  border: 2px solid white;
+}
+
+.btn-dark:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Monospace;
+  margin-top: 30px;
+}
